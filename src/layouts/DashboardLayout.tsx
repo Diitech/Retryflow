@@ -14,7 +14,7 @@ import {
   LogOut,
   Zap,
 } from 'lucide-react';
-import { useAuth } from '@/App';
+import { useAuth } from '@/context/AuthContext';
 
 const sidebarLinks = [
   { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },

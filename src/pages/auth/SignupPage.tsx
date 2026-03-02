@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Eye, EyeOff, Mail, Lock, User, Building2, ArrowRight, CheckCircle2 } from 'lucide-react';
-import { useAuth } from '@/App';
+import { useAuth } from '@/context/AuthContext';
 
 export default function SignupPage() {
   const [showPassword, setShowPassword] = useState(false);
